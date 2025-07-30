@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios - Web & App Studio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #007BFF, #2ECC71, #333333);
+      margin: 0;
+      color: white;
+      padding-top: 120px; /* espacio para header fijo */
+    }
+
+    /* Header con menú */
+    header {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 8px 12px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    /* Main Section */
+    section {
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card {
+      background-color: rgba(255,255,255,0.9);
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      padding: 30px;
+      max-width: 900px;
+      margin-bottom: 40px;
+      width: 100%;
+      color: #333;
+    }
+
+    .card h2 {
+      color: #007BFF;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .card p, .card ul {
+      font-size: 17px;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "● ";
+      color: #007BFF;
+      font-weight: bold;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 14px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        padding: 20px;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header con menú -->
+  <header>
+    <h1>Web & App Studio</h1>
+    <nav>
+      <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <section>
+    <div class="card">
+      <h2>Desarrollo de sitios web</h2>
+      <p>
+        Diseñamos y desarrollamos sitios web funcionales, estéticos y adaptados a los requerimientos específicos de cada cliente. 
+        Empleamos tecnologías modernas para garantizar soluciones eficientes, seguras y compatibles con todo tipo de dispositivos.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Aplicaciones móviles</h2>
+      <p>
+        Ofrecemos el desarrollo de aplicaciones móviles para plataformas Android e iOS, con el objetivo de potenciar la interacción con los usuarios, 
+        automatizar procesos y fortalecer la presencia digital de nuestros clientes. Acompañamos el proyecto desde la concepción inicial hasta su implementación y publicación.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Nuestro compromiso</h2>
+      <p>En Web & App Studio, nos comprometemos a brindar un servicio profesional, confiable y orientado a la excelencia. Nuestros principios se centran en:</p>
+      <ul>
+        <li>Garantizar una experiencia de usuario ágil, clara y altamente funcional.</li>
+        <li>Proporcionar herramientas intuitivas que faciliten la gestión eficiente sin conocimientos técnicos avanzados.</li>
+        <li>Mantener una mejora continua mediante capacitación, pruebas y actualizaciones.</li>
+        <li>Responder a las necesidades cambiantes de nuestros usuarios con soporte y nuevas funcionalidades.</li>
+      </ul>
+      <p>
+        Aunque actualmente nos encontramos en una fase académica y de simulación, 
+        nuestra visión a futuro contempla establecer canales de atención digital, soporte en línea y recursos de autoayuda que fortalezcan la experiencia de organizadores y usuarios finales.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Web & App Studio. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>

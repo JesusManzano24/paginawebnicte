@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web & App Studio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #007BFF, #2ECC71, #333333);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 28px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      padding: 8px 12px;
+      transition: background-color 0.3s ease;
+      border-radius: 6px;
+    }
+
+    nav ul li a:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    main {
+      flex: 1;
+      padding-top: 120px; /* espacio para el header fijo */
+      text-align: center;
+    }
+
+    .logo-img {
+      max-width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      margin-top: 30px;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #ff69b4;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Web & App Studio</h1>
+    <nav>
+      <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <img src="c:\Users\vorago\OneDrive\Documentos\paginaweb_patti\WhatsApp Image 2025-07-24 at 7.02.39 PM.jpeg" alt="Logo Web & App Studio" class="logo-img">
+    <h2 style="margin-top: 40px;">Bienvenido a nuestra plataforma digital</h2>
+    <p style="max-width: 800px; margin: 20px auto; font-size: 18px; color: white;">
+      En Web & App Studio desarrollamos soluciones digitales a medida para impulsar tu negocio en línea. Desde sitios web modernos hasta aplicaciones móviles intuitivas, nuestro enfoque está en la innovación, el diseño y la funcionalidad.
+    </p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Web & App Studio. Todos los derechos reservados.</p>
+    <p>Diseñado con 💻 por tu equipo creativo. | <a href="#contacto">Contáctanos</a></p>
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+

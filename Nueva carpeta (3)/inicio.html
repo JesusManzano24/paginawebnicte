@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio - Web & App Studio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #007BFF, #2ECC71, #333333);
+      min-height: 100vh;
+      padding-top: 120px;
+      color: white;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 28px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      padding: 8px 12px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    #inicio {
+      text-align: center;
+      padding: 40px;
+    }
+
+    #inicio h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    #inicio p {
+      font-size: 18px;
+      max-width: 800px;
+      margin: 0 auto 20px auto;
+      line-height: 1.6;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 12px;
+    }
+
+    #inicio img {
+      width: 60%;
+      max-height: 300px;
+      object-fit: cover;
+      margin: 20px auto;
+      display: block;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    #inicio a {
+      display: inline-block;
+      padding: 10px 20px;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
+
+    #inicio a:first-of-type {
+      background-color: #e5599a;
+    }
+
+    #inicio a:last-of-type {
+      background-color: #af218c;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #ff69b4;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Menú Header -->
+  <header>
+    <h1>Web & App Studio</h1>
+    <nav>
+      <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección Inicio -->
+  <section id="inicio">
+    <h1>Bienvenido a Web & App Studio</h1>
+    <p>Transformamos ideas en soluciones digitales con impacto.</p>
+
+    <!-- Reemplaza esta ruta con una URL válida o ruta relativa -->
+    <img src="c:\Users\vorago\OneDrive\Documentos\paginaweb_patti\WhatsApp Image 2025-07-24 at 7.02.39 PM.jpeg" alt="Diseño digital creativo">
+
+    <p>
+      Somos un equipo apasionado por la tecnología, el diseño y la innovación.
+      Ayudamos a emprendedores y empresas a destacar en el entorno digital
+      con sitios web y aplicaciones móviles a la medida.
+    </p>
+
+    <a href="nosotros.html">Conócenos</a>
+    <a href="contacto.html">Contáctanos</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Web & App Studio. Todos los derechos reservados.</p>
+    <p>Diseñado con 💻 por tu equipo creativo. | <a href="contacto.html">Contáctanos</a></p>
+  </footer>
+
+</body>
+</html>
